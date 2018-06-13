@@ -1,0 +1,9 @@
+### table作成
+ CREATE TABLE `TEST_TABLE_YOSUKE_S` (
+  `test001` varchar(10) NOT NULL,
+  `test002` int(20) NOT NULL,
+  `test003` varchar(20) NOT NULL,
+  `proc_detail` text NOT NULL,
+  `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  KEY `utcdate_index` (`test001`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
