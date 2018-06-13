@@ -1,0 +1,2 @@
+### ■カラム追加 ※afterの後に挿入
+ALTER TABLE HAWAII ADD(table名) Evaluation(カラム名) int(20) NOT NULL(カラム属性) AFTER HOTEL(カラム名);
