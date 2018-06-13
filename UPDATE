@@ -1,0 +1,2 @@
+### データ挿入 (既存レコード)
+update TEST_TABLE_YOSUKE_S(table名) set proc_detail(カラム名) ='UPDATE文を投入します'(更新内容) where test003 = 'test00';
